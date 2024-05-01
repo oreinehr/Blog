@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NikeBlog</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="carousel-animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-rBolqc1HR0OFVuh4cBGOOh0r7H.26k4z0+P8Hzmea8fkQs0R5Pv8lTMu5vhu6V9Z" crossorigin="anonymous">
+</head>
+<body>
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-0">
+    <div class="container">
+ 
+        <a class="navbar-brand p-2" href="#">
+            <img src="/assets/img/images.png" alt="Logo" width="50">
+        </a>
+        
+    
+        <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto p-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Página Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li> 
+                  <form class="form-inline my-2-0 mx-auto">
+                    <input class="form-control mr-sm-2 border-1" type="search" placeholder="Pesquisar" aria-label="Pesquisar" style="background-color: transparent;">
+                    <button class="btn btn-outline-custom-success my-2 my-sm-0" type="submit" style="border-color: transparent;"><i class="fas fa-search"></i></button>
+                </form>
+        
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  
+  
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/img/tout-membership-atletas-08-03-desk.avif" class="d-block w-100" alt="Slide 1" >
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/Banner-Camisa-Selecao-2024-Desk.png" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/img/Banner-Nike-Sp-Run-22-04-desktop.avif" class="d-block w-100" alt="Slide 3">
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+ 
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-8">
+      <h2>Últimas Postagens</h2>
+      <div class="row d-flex align-items-stretch">
+        <div class="col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="/assets/img/tout-membership-atletas-08-03-desk.avif" class="card-img-top" alt="Postagem 1" height="239">
+            <div class="card-body">
+              <h5 class="card-title">Membro Nike</h5>
+              <p class="card-text">Onde todos os atletas se encontram!</p>
+              <button class="btn btn-primary" id="btn1">Leia Mais</button> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="/assets/img/Banner-Camisa-Selecao-2024-Desk.png" class="card-img-top" alt="Postagem 2" height="245">
+            <div class="card-body">
+              <h5 class="card-title">Nova camisa do Brasil 2024</h5>
+              <p class="card-text">Inspirada no talento dos atletas</p>
+              <button class="btn btn-primary" id="btn2">Leia Mais</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="/assets/img/Banner-Nike-Sp-Run-22-04-desktop.avif" class="card-img-top" alt="Postagem 3" height="236">
+            <div class="card-body">
+              <h5 class="card-title">Título da Postagem 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec lorem ac libero porta dapibus.</p>
+              <button class="btn btn-primary" id="btn3">Leia Mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <div class="card h-100">
+            <img src="/assets/img/Banner-dia-das-mães-fase-02-01-05-desktop.jpg" class="card-img-top" alt="Postagem 4" height="240">
+            <div class="card-body">
+              <h5 class="card-title">Título da Postagem 4</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec lorem ac libero porta dapibus.</p>
+              <a href="#" class="btn btn-primary">Leia Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <h2>Quem somos?</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">O que é o NikeRL?</h5>
+          <p class="card-text">Bem-vindo ao blog dedicado aos fãs da Nike! Somos apaixonados pela marca e tudo o que ela representa - inovação, excelência, e o espírito de superação. Aqui você encontrará notícias, análises de produtos, dicas de estilo, e muito mais, tudo com o objetivo de celebrar o universo Nike e inspirar os fãs a alcançarem seus objetivos, dentro e fora do campo.</p>
+          <p class="card-text">Nosso objetivo é criar uma comunidade vibrante e engajada de entusiastas da Nike, onde possamos compartilhar nossa paixão pela marca, discutir os últimos lançamentos, e inspirar uns aos outros a alcançar o melhor em nossas vidas.</p>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</div>
+
+<footer class="footer mt-auto py-3 bg-custom-dark text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h3>Sobre o NikeRL</h3>
+        <p>Bem-vindo ao blog dedicado aos fãs da Nike! Somos apaixonados pela marca e tudo o que ela representa - inovação, excelência, e o espírito de superação. Aqui você encontrará notícias, análises de produtos, dicas de estilo, e muito mais, tudo com o objetivo de celebrar o universo Nike e inspirar os fãs a alcançarem seus objetivos, dentro e fora do campo.</p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h3>Siga-nos</h3>
+        <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/nike/?locale=pt_BR"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="https://www.instagram.com/nike/"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a href="https://www.youtube.com/@nike"><i class="fab fa-youtube"></i> YouTube</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-5 col-md-12 mb-4">
+        <h3>Contato</h3>
+        <form>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/js/script.js" defer></script>
+</body>
+</html>
